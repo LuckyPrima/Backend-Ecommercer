@@ -10,6 +10,7 @@ import cartRoutes from "./routes/cart.route.js";
 import couponRoutes from "./routes/coupon.route.js";
 import paymentRoutes from "./routes/payment.route.js";
 import analyticsRoutes from "./routes/analytics.route.js";
+import checkRoutes from "./routes/check.route.js";
 
 import { connectDB, sequelize } from "./lib/db.js";
 
@@ -33,6 +34,7 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/coupon", couponRoutes);
 app.use("/api/payment", paymentRoutes);
 app.use("/api/analytics", analyticsRoutes);
+app.use("/api/check", checkRoutes);
 
 app.listen(PORT, async () => {
   console.log("Server is running on https://localhost:" + PORT);
