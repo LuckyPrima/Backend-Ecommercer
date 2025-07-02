@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "neondb_owner",
+    "password": "npg_qxfOPL9jp8Sd",
+    "database": "neondb",
+    "host": "ap-southeast-1.aws.neon.tech",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "neondb_owner",
+    "password": "npg_qxfOPL9jp8Sd",
+    "database": "neondb",
+    "host": "ap-southeast-1.aws.neon.tech",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "neondb_owner",
+    "password": "npg_qxfOPL9jp8Sd",
+    "database": "neondb",
+    "host": "ap-southeast-1.aws.neon.tech",
+    "dialect": "postgres"
+  }
+}
