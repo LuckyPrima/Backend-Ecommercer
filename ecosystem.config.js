@@ -20,7 +20,6 @@ module.exports = {
       "pre-deploy-local": "",
       "post-deploy": `source ~/.nvm/nvm.sh && \
         npm install && \
-        npm run build && \
         pm2 startOrRestart ecosystem.config.js && \
         sudo systemctl restart nginx`,
       "pre-setup": "",
