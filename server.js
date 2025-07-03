@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://frontend-ecommerce-phi-smoky.vercel.app",
+    origin: "https://ecommerce.luckyprima.site",
     credentials: true,
   })
 );
